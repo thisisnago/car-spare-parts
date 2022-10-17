@@ -4,21 +4,21 @@
         {
             id: "1",
             brand: "Jeep",
-            logo: "../Car Spare Parts/img/what-we-offer/americans-cars/car-logos/jeep-logo.svg",
+            logo: "../img/what-we-offer/americans-cars/car-logos/jeep-logo.svg",
             description: "Find the best spare parts for Jeep Cherokee, Wrangler, Renegade, and other models.",
         },
         
         {
             id: "2",
             brand: "Chevrolet",
-            logo: "../Car Spare Parts/img/what-we-offer/americans-cars/car-logos/chevrolet-logo.svg",
+            logo: "../img/what-we-offer/americans-cars/car-logos/chevrolet-logo.svg",
             description: "From classic Chevrolet Aveo to fast and furious Corvette, we've got you covered.",
         },
         
         {
             id: "3",
             brand: "Chrysler",
-            logo: "../Car Spare Parts/img/what-we-offer/americans-cars/car-logos/chrysler-logo.svg",
+            logo: "../img/what-we-offer/americans-cars/car-logos/chrysler-logo.svg",
             description: "We offer spare parts for all models of Chrysler, from 200 to Concorde and Aspen.",
         }
     ];
@@ -27,21 +27,21 @@
         {
             id: "4",
             brand: "Nissan",
-            logo: "../Car Spare Parts/img/what-we-offer/japanese-cars/car-logos/nissan-logo.svg",
+            logo: "../img/what-we-offer/japanese-cars/car-logos/nissan-logo.svg",
             description: "We offer a wide range of spare parts for Nissan Micra, Murano, Leaf, etc.",  
         },
 
         {
             id: "5",
             brand: "Toyota",
-            logo: "../Car Spare Parts/img/what-we-offer/japanese-cars/car-logos/toyota-logo.svg",
+            logo: "../img/what-we-offer/japanese-cars/car-logos/toyota-logo.svg",
             description: "We offer a wide range of spare parts for Nissan Micra, Murano, Leaf, etc.",  
         },
 
         {
             id: "6",
             brand: "Honda",
-            logo: "../Car Spare Parts/img/what-we-offer/japanese-cars/car-logos/honda-logo.svg",
+            logo: "../img/what-we-offer/japanese-cars/car-logos/honda-logo.svg",
             description: "From Honda CR-V to Honda Beat, we offer the best auto parts for your iron horse.",  
         },
     ]
@@ -50,28 +50,28 @@
         {
             id: "7",
             brand: "Volvo",
-            logo: "../Car Spare Parts/img/what-we-offer/european-cars/car-logos/volvo-logo.svg",
+            logo: "../img/what-we-offer/european-cars/car-logos/volvo-logo.svg",
             description: "Purchase spare parts for one of the most reliable car brands in the world.",  
         },
 
         {
             id: "8",
             brand: "Volkswagen",
-            logo: "../Car Spare Parts/img/what-we-offer/european-cars/car-logos/volkswagen-logo.svg",
+            logo: "../img/what-we-offer/european-cars/car-logos/volkswagen-logo.svg",
             description: "Order the best spare parts for your VW Polo, Golf, Beetle, and other models.",  
         },
 
         {
             id: "9",
             brand: "Mercedes",
-            logo: "../Car Spare Parts/img/what-we-offer/european-cars/car-logos/mercedes-benz-logo.svg",
+            logo: "../img/what-we-offer/european-cars/car-logos/mercedes-benz-logo.svg",
             description: "We have spare parts both for budget and premium models of this famous brand.",  
         },
 
         {
             id: "10",
             brand: "Audi",
-            logo: "../Car Spare Parts/img/what-we-offer/european-cars/car-logos/audi-logo.svg",
+            logo: "../img/what-we-offer/european-cars/car-logos/audi-logo.svg",
             description: "We offer the best spare parts for 40+ Audi models at affordable prices.",  
         }
     ]

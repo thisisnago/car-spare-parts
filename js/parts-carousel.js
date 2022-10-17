@@ -4,28 +4,28 @@
         {
             id: "0",
             title: "Custom Wheels",
-            img: "../Car Spare Parts/img/car-parts/custom-wheels.png",
+            img: "../img/car-parts/custom-wheels.png",
             description: "Select the best car wheels of any styles and colors on our website.",
         },
 
         {
             id: "1",
             title: "Motor Parts",
-            img: "../Car Spare Parts/img/car-parts/motor-parts.png",
+            img: "../img/car-parts/motor-parts.png",
             description: "Everything you may need to repair the engine of your vehicle.",
         },
 
         {
             id: "2",
             title: "Headlights",
-            img: "../Car Spare Parts/img/car-parts/headlights.png",
+            img: "../img/car-parts/headlights.png",
             description: "Find headlights for any car model at our website at the lowest prices.",
         },
 
         {
             id: "3",
             title: "Brakes&Rotor",
-            img: "../Car Spare Parts/img/car-parts/brakes-and-rotor.png",
+            img: "../img/car-parts/brakes-and-rotor.png",
             description: "Remember to check and purchase new high-quality brake discs when needed.",
         }
     ]

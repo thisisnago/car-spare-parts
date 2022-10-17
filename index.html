@@ -319,7 +319,9 @@
                     <div class="request__overline-block__btn">
                         <div class="request-btn__container">
                             <div class="btn request-btn">
-                                SEND A REQUEST
+                                <a href="#contacts">
+                                    SEND A REQUEST
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -819,9 +821,32 @@
                     </p>
 
                     <div class="information__quote__btn">
-                        <a href="#" class="btn">
+                        <!-- <a href="#" class="btn">
                             FREE QUOTE
-                        </a>
+                        </a> -->
+                        <button class="btn trigger">FREE QUOTE</button>
+                        <div class="modal">
+                            <div class="modal-content__container">
+                                <div class="modal-content">
+                                    <span class="close-button">&times;</span>
+                                    <div class="quote__text">
+                                        <h2>In Search of a Specific Spare Part?</h2>
+                                        <p>Fill out the form below, specify what kind of spare parts you are looking
+                                            for, and we will contact you shortly.</p>
+                                    </div>
+                                    <form id="my-form" class="form" action="https://formspree.io/f/xknevnlb"
+                                        method="POST">
+                                        <input class="form__element form__email" type="email" id="email" name="email"
+                                            placeholder="Email*" required />
+                                        <!-- <textarea class="form__element form__text" type="text" name="message" id="message" placeholder="Your message*" required/> -->
+                                        <textarea name="message" id="message" class="form__element form__text" cols="30"
+                                            rows="10" placeholder="Your message*" required></textarea>
+                                            <p id="my-form-status" class="form__status"></p>
+                                        <button id="my-form-button" class="form__button">Submit</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -996,6 +1021,8 @@
     <script src="js/burger.js"></script>
     <script src="js/parts-carousel.js"></script>
     <script src="js/dropdown.js"></script>
+    <script src="js/modal.js"></script>
+    <script src="js/formspree.js"></script>
 
 </body>
 

@@ -36,6 +36,14 @@
     color: #ffffff;
 }
 
+.request-btn a{
+    transition: all 0.5s ease-in-out;
+}
+
+.request-btn:hover a{
+    color: #ffffff;
+}
+
 .request__line{
     margin: auto;
     width: 100%;

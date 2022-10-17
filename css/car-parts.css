@@ -124,7 +124,6 @@ h2.car-parts__title{
     .car-parts__carousel-element__container{
         min-width: auto;
         width: 45%;
-        border: 1px solid black;
     }
 }
 
@@ -141,7 +140,6 @@ h2.car-parts__title{
     .car-parts__carousel-element__container{
         min-width: auto;
         width: 30%;
-        border: 1px solid red;
     }
 
     .car-parts__carousel-element__img__container{

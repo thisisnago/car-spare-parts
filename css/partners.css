@@ -1,0 +1,22 @@
+.partners{
+    padding: 80px 0;
+    background-color: #E53E2B;
+}
+
+.logo-container{
+    width: 80%;
+    margin: auto;
+
+}
+
+.partners-logo{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.partners-logo img{
+    width: 80%;
+    height: 50px;
+    margin: auto;
+}

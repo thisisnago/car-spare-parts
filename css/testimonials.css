@@ -1,0 +1,81 @@
+.testimonials{
+    padding: 90px 0;
+    background-image: url("../img/car-parts/car-parts-background.png");
+    background-size: cover;
+}
+
+.testimonials__title{
+    text-align: center;
+}
+
+.testimonials__description{
+    text-align: center;
+
+}
+
+.testimonials__feedbacks__element{
+    background-color: #ffffff;
+    padding: 35px;
+    margin: 40px 0;
+}
+
+.testimonials__feedbacks__element__profile-info{
+    display: flex;
+    padding: 15px 0;
+}
+
+.testimonials__feedbacks__element__profile-info__photo{
+    width: 70px;
+    height: 70px;
+}
+
+.testimonials__feedbacks__element__profile-info__photo img{
+    border-radius: 50%;
+    width: 100%;
+}
+
+.testimonials__feedbacks__element__profile-info__text{
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.testimonials__feedbacks__element__profile-info__text__name{
+    color: #1C1C1C;
+    font-size: 22px;
+    font-family: var(--rajdhani-font-family);
+    font-weight: 700;
+}
+
+.testimonials__feedbacks__element__profile-info__text__position{
+    color: #B2ABAB;
+    font-size: 14px;
+    font-family: var(--rubik-font-family);
+    font-weight: 600;
+}
+
+.testimonials__feedbacks__element__apostrophes{
+    width: 20px;
+    padding: 25px 0;
+    color: #E53E2B;
+}
+
+.testimonials__feedbacks__element__description{
+    font-size: 16px;
+    font-family: var(--rubik-font-family);
+    color: #6C6C6C;
+    line-height: 1.5;
+}
+
+@media(min-width: 991px){
+    .testimonials__feedbacks{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .testimonials__feedbacks__element{
+        width: 32%;
+
+    }
+}

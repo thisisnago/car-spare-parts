@@ -1,0 +1,155 @@
+.car-parts{
+    background-image: url(../img/car-parts/car-parts-background.png);
+    background-size: cover;
+    min-height: 700px;
+    padding: 90px 0;
+}
+
+.car-parts__title{
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+h2.car-parts__title{
+    width: 50%;
+    margin: auto;
+}
+
+.car-parts__carousel__container{
+    display: flex;
+    align-items: center;
+}
+
+.car-parts__carousel__btn-prev,
+.car-parts__carousel__btn-next{
+    color: white;
+    padding: 0 8px;
+    border: 1px solid red;
+    background-color: red;
+    border-radius: 50%;
+    font-size: 30px;
+    font-weight: bold;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.car-parts__carousel__btn-prev:hover,
+.car-parts__carousel__btn-next:hover{
+    background-color: white;
+    color: red;
+}
+
+.car-parts__carousel{
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.car-parts__carousel-element__container{
+    /* padding: 0 10px;  */
+    
+    background-color: white;
+    
+    
+    min-width: 250px;
+    position: relative;
+}
+
+.car-parts__carousel-element{
+    text-align: center;
+    padding: 20px;
+
+    overflow: hidden;
+    /* padding-top: 50px; */
+}
+
+
+
+.car-parts__carousel-element__img{
+    width: calc(100% - 40px);
+    height: calc(50% - 40px);
+    margin: auto;
+    /* border: 1px solid red; */
+    
+    /* padding: 20px; */
+
+    /* padding-bottom: 100px; */
+
+    
+    position: absolute;
+}
+
+
+.car-parts__carousel-element__img__container{
+    padding-bottom: 90%;
+    margin: auto;
+
+}
+
+.car-parts__carousel-element__img img{
+    width: 100%;
+    height: 100%;
+    
+    /* object-position: 35% 35%; */
+    object-fit: contain;
+}
+
+.car-parts__carousel-element__title{
+    font-size: 22px;
+    font-family: 'Rajdhani', sans-serif;
+    color: #1C1C1C;
+    font-weight: 700;
+    padding-top: 10px;
+}
+
+.car-parts__carousel-element__link{
+    padding: 30px 0;
+}
+
+.car-parts__carousel-element__link a{
+    color: var(--section-name-color);
+    font-family: var(--rubik-font-family);
+    font-size: 12px;
+    font-weight: 600;
+}
+
+
+
+/* .how-we-work__statistics__element__value{
+    background-image: url(../img/how-we-work/backgrounds/can-bg.svg);
+} */
+
+
+@media(min-width: 768px){
+    .car-parts__carousel-element__container{
+        min-width: auto;
+        width: 45%;
+        border: 1px solid black;
+    }
+}
+
+@media(min-width: 991px){
+
+    .what-we-offer{
+        background-image: url("../img/what-we-offer/background_pc.png");
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        
+    }
+
+    .car-parts__carousel-element__container{
+        min-width: auto;
+        width: 30%;
+        border: 1px solid red;
+    }
+
+    .car-parts__carousel-element__img__container{
+        padding-bottom: 100%;   
+    }
+
+    .car-parts__carousel-element__description{
+        width: 80%;
+        margin: auto;
+    }
+}

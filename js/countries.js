@@ -4,21 +4,21 @@
         {
             id: "1",
             brand: "Jeep",
-            logo: "../img/what-we-offer/americans-cars/car-logos/jeep-logo.svg",
+            logo: "img/what-we-offer/americans-cars/car-logos/jeep-logo.svg",
             description: "Find the best spare parts for Jeep Cherokee, Wrangler, Renegade, and other models.",
         },
         
         {
             id: "2",
             brand: "Chevrolet",
-            logo: "../img/what-we-offer/americans-cars/car-logos/chevrolet-logo.svg",
+            logo: "img/what-we-offer/americans-cars/car-logos/chevrolet-logo.svg",
             description: "From classic Chevrolet Aveo to fast and furious Corvette, we've got you covered.",
         },
         
         {
             id: "3",
             brand: "Chrysler",
-            logo: "../img/what-we-offer/americans-cars/car-logos/chrysler-logo.svg",
+            logo: "img/what-we-offer/americans-cars/car-logos/chrysler-logo.svg",
             description: "We offer spare parts for all models of Chrysler, from 200 to Concorde and Aspen.",
         }
     ];

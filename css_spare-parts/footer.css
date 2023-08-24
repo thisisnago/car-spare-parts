@@ -248,7 +248,7 @@ footer {
         /* border: 1px solid blue; */
     }
 
-    .footer__bottom__text{
+    .footer__bottom__text {
         display: flex;
         justify-content: space-between;
     }

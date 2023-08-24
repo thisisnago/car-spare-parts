@@ -192,10 +192,11 @@ body.lock {
 
 
 @media(min-width: 991px) {
-    
-    .logo{
+
+    .logo {
         width: 132px;
     }
+
     .header__main {
         background-image: url("../img/header/header-bg.png");
         padding-bottom: 40px;
@@ -225,11 +226,11 @@ body.lock {
         justify-content: space-around;
     }
 
-    .header__main-info{
+    .header__main-info {
         max-width: 33%;
     }
 
-    .header__main-info__container{
+    .header__main-info__container {
         display: flex;
         flex-direction: row-reverse;
     }

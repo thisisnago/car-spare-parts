@@ -233,26 +233,28 @@ footer {
     }
 
     .footer-top {
-        /* border: 2px solid white; */
         width: 20%;
     }
 
     .footer__news {
         width: 20%;
-        /* border: 2px solid orange; */
     }
 
+    .footer__news__title {
+        padding: 0;
+        padding-bottom: 30px;
+    }
+
+
     .footer-links {
-        /* border: 2px solid red; */
         width: 60%;
         display: flex;
         justify-content: space-between;
         padding: 0;
     }
 
-    .footer-links>div {
+    .footer-links > div {
         width: 33%;
-        /* border: 1px solid blue; */
     }
 
     .footer__bottom__text {
@@ -260,8 +262,4 @@ footer {
         justify-content: space-between;
     }
 
-
-    /* .footer-top{
-        wi
-    } */
 }

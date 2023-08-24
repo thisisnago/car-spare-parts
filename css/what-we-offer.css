@@ -1,46 +1,55 @@
-.what-we-offer{
+.what-we-offer {
     background-color: #1c1c1c;
     padding: 90px 0;
 }
 
-.what-we-offer .section-title{
+.what-we-offer .section-title {
     text-align: center;
 }
 
-.what-we-offer__header{
+.what-we-offer__header {
     color: #ffffff;
     text-align: center;
 }
 
-.what-we-offer__brands-list__element{
+.what-we-offer__brands-list__element {
     background-color: #2D2D2D;
     padding: 25px;
     margin: 30px 0;
+    display: flex;
+    flex-direction: column;
 }
 
-.what-we-offer__brands-list__element__img{
-    margin: auto;
-}
-
-.what-we-offer__brands-list__element__img img{
+.what-we-offer__brands-list__element__img {
     width: 100%;
 }
 
-.what-we-offer__brands-list__element__title{
+.what-we-offer__brands-list__element__img img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 16/9;
+    
+}
+
+.what-we-offer__brands-list__element__img img {
+    width: 100%;
+}
+
+.what-we-offer__brands-list__element__title {
     color: var(--section-title-color);
     font-size: 22px;
-    font-family: var(--rajdhani-font-family);    
+    font-family: var(--rajdhani-font-family);
     color: #ffffff;
     padding: 15px 0;
 }
 
-.what-we-offer__brands-list__element__line{
+.what-we-offer__brands-list__element__line {
     width: 20%;
     height: 2px;
     background-color: #E53E2B;
 }
 
-.what-we-offer__brands-list__element__description{
+.what-we-offer__brands-list__element__description {
     font-size: 16px;
     font-family: var(--rubik-font-family);
     color: #ffffff;
@@ -49,27 +58,31 @@
     color: #ffffff;
 }
 
-.what-we-offer__brands-list__element__link a{
+.what-we-offer__brands-list__element__link {
+    margin-top: auto;
+}
+
+.what-we-offer__brands-list__element__link a {
     color: #ffffff;
     font-family: var(--rubik-font-family);
     font-size: 12px;
     font-weight: 600;
 }
 
-.what-we-offer__american{
+.what-we-offer__american {
     /* background-image: url("../img/what-we-offer/americans-cars/american-flag.svg"); */
     color: none;
     border: none;
-    background-repeat: none; 
+    background-repeat: none;
     width: 100px;
 }
 
-.what-we-offer__brands-countries{
+.what-we-offer__brands-countries {
     display: flex;
     justify-content: space-around;
 }
 
-.flag{
+.flag {
     width: 70px;
     height: 70px;
     padding: 0 10px;
@@ -77,31 +90,31 @@
     opacity: 0.7;
 }
 
-.flag__container:hover .flag__text{
+.flag__container:hover .flag__text {
     color: #ffffff;
 }
 
-.flag__container:hover .flag{
+.flag__container:hover .flag {
     opacity: 1;
 }
 
-.flag__active{
+.flag__active {
     border-bottom: #E53E2B 2px solid;
 }
 
-.flag__active .flag__text{
+.flag__active .flag__text {
     color: #ffffff;
 }
 
-.flag__active img{
+.flag__active img {
     opacity: 1;
 }
 
-.flag__container{
+.flag__container {
     display: flex;
 }
 
-.flag__text{
+.flag__text {
     display: none;
     font-size: 18px;
     font-family: var(--rubik-font-family);
@@ -111,29 +124,29 @@
 
 
 
-@media(min-width: 991px){
+@media(min-width: 991px) {
 
-    .section-title{
+    .section-title {
         padding-bottom: 10px;
     }
 
-    .what-we-offer__header{
+    .what-we-offer__header {
         padding-bottom: 50px;
     }
 
-    .what-we-offer__brands-list{
+    .what-we-offer__brands-list {
         display: flex;
         flex-wrap: wrap;
         width: 75%;
     }
 
-    .what-we-offer__brands-list__element{
+    .what-we-offer__brands-list__element {
         width: 30%;
         margin: 0 10px 20px 10px;
         padding: 20px;
     }
-    
-    .what-we-offer__brands-countries{
+
+    .what-we-offer__brands-countries {
         width: 23%;
         display: flex;
         flex-direction: column;
@@ -141,31 +154,31 @@
         border-right: 1px solid rgba(255, 255, 255, 0.126);
     }
 
-    .what-we-offer__brands{
+    .what-we-offer__brands {
         display: flex;
         justify-content: space-between;
     }
 
-    .flag__text{
+    .flag__text {
         display: block;
         text-align: center;
         padding-left: 15px;
     }
-    
-    .flag__container{
+
+    .flag__container {
         padding: 15px 0;
         cursor: pointer;
     }
 
-    
-    
-    .flag__active{
+
+
+    .flag__active {
         background-color: rgba(229, 62, 43, 0.1);
         border-bottom: none;
         border-right: #E53E2B 2px solid;
     }
 
-    .flag{
+    .flag {
         width: 25px;
         height: 25px;
         padding: 0;

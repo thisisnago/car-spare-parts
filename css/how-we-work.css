@@ -1,26 +1,26 @@
-.how-we-work{
+.how-we-work {
     padding: 90px 0;
 }
 
-.how-we-work__title{
+.how-we-work__title {
     text-align: center;
 }
 
-.how-we-work__description{
+.how-we-work__description {
     text-align: center;
 }
 
-.how-we-work__images-container img{
+.how-we-work__images-container img {
     width: 100%;
     padding: 30px 0;
 }
 
-.how-we-work__statistics__element__value{
+.how-we-work__statistics__element__value {
     position: relative;
     min-height: 250px;
 }
 
-.how-we-work__statistics__element__value__background{
+.how-we-work__statistics__element__value__background {
     position: absolute;
     color: grey;
     width: 100%;
@@ -28,17 +28,17 @@
     /* left: -30%; */
 }
 
-.how-we-work__statistics__element__value__background svg{
+.how-we-work__statistics__element__value__background svg {
     max-width: 100%;
     min-width: 150px;
     min-height: 150px;
     width: 40%;
     height: 40%;
     /* transform: scale(0.3); */
-    
+
 }
 
-.how-we-work__statistics__element__value__text{
+.how-we-work__statistics__element__value__text {
     z-index: 10;
     position: absolute;
     color: #E53E2B;
@@ -49,7 +49,7 @@
     left: 35px;
 }
 
-.how-we-work__statistics__element__value__line{
+.how-we-work__statistics__element__value__line {
     background-color: #B2ABAB;
     width: 10%;
     height: 2px;
@@ -58,7 +58,7 @@
     left: 35px;
 }
 
-.how-we-work__statistics__element__value__title{
+.how-we-work__statistics__element__value__title {
     color: #1C1C1C;
     font-family: var(--rubik-font-family);
     font-size: 16px;
@@ -68,33 +68,33 @@
     font-weight: 600;
 }
 
-@media(min-width: 768px){
-    .how-we-work__statistics__element__value__background svg{
+@media(min-width: 768px) {
+    .how-we-work__statistics__element__value__background svg {
         width: 260px;
         height: 150px;
     }
 }
 
-@media(min-width: 991px){
-    .how-we-work__images-container{
+@media(min-width: 991px) {
+    .how-we-work__images-container {
         display: flex;
         justify-content: space-between;
     }
 
-    .how-we-work__img{
+    .how-we-work__img {
         width: 48%;
     }
 
-    .how-we-work__statistics{
+    .how-we-work__statistics {
         display: flex;
         justify-content: space-between;
     }
 
-    .how-we-work__statistics__element{
+    .how-we-work__statistics__element {
         width: 24%;
     }
-    
-    .how-we-work__statistics__element__value__background svg{
+
+    .how-we-work__statistics__element__value__background svg {
         transform: scale(100%);
     }
 

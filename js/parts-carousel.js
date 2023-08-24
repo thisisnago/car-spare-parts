@@ -32,46 +32,15 @@
 
     let currentSlideIdx = 0;
 
-    // const carPartsCarousel = document.querySelector(".car-parts__carousel");
-    // function renderCarousel() {
-    //     carPartsCarousel.innerHTML = `
-    
-    // <div class="car-parts__carousel-element__container">
-    //     <div class="car-parts__carousel-element">
-    //         <div class="car-parts__carousel-element__img__container">
-    //             <div class="car-parts__carousel-element__img">
-    //                 <img src="${carPartsElements[currentSlideIdx].img}" alt="${carPartsElements[currentSlideIdx].title}">
-    //             </div>
-    //         </div>
-    //         <p class="car-parts__carousel-element__title">
-    //             ${carPartsElements[currentSlideIdx].title}
-    //         </p>
-    //         </p>
-    //         <p class="section-content car-parts__carousel-element__description">
-    //             ${carPartsElements[currentSlideIdx].description}
-    //         </p>
-    //         <div class="car-parts__carousel-element__link">
-    //             <a href="#">
-    //                 LEARN MORE →
-    //             </a>
-    //         </div>
-    //     </div>
-    // </div>`
-    // }
-
-    // renderCarousel();
-
     function slideCode(currentSlideIdx) {
         return `<div class="car-parts__carousel-element__container">
             <div class="car-parts__carousel-element">
-                <div class="car-parts__carousel-element__img__container">
-                    <div class="car-parts__carousel-element__img">
-                        <img src="${carPartsElements[currentSlideIdx].img}" alt="${carPartsElements[currentSlideIdx].title}">
-                    </div>
+                <div class="car-parts__carousel-element__img">
+                    <img src="${carPartsElements[currentSlideIdx].img}" alt="${carPartsElements[currentSlideIdx].title}">
                 </div>
+
                 <p class="car-parts__carousel-element__title">
                     ${carPartsElements[currentSlideIdx].title}
-                </p>
                 </p>
                 <p class="section-content car-parts__carousel-element__description">
                     ${carPartsElements[currentSlideIdx].description}
@@ -83,17 +52,17 @@
                 </div>
             </div>
         </div>`;
-    };  
+    };
 
 
     function renderCarousel() {
         const carouselSlide = document.querySelector(".car-parts__carousel");
         carouselSlide.innerHTML = slideCode(currentSlideIdx);
 
-        if(window.innerWidth > 768){
+        if (window.innerWidth > 768) {
             const secondSlideIdx = currentSlideIdx + 1 >= carPartsElements.length ? 0 : currentSlideIdx + 1;
             carouselSlide.innerHTML += slideCode(secondSlideIdx);
-            if(window.innerWidth > 991){
+            if (window.innerWidth > 991) {
                 const thirdSlideIdx = secondSlideIdx + 1 >= carPartsElements.length ? 0 : secondSlideIdx + 1;
                 carouselSlide.innerHTML += slideCode(thirdSlideIdx);
             }
@@ -116,7 +85,7 @@
     const nextButton = document.querySelector(".car-parts__carousel__btn-next");
     nextButton.addEventListener('click', next);
 
-    setInterval(next, 5000);
+    // setInterval(next, 5000);
 
     renderCarousel();
 

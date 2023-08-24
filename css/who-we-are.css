@@ -1,33 +1,33 @@
-.who-we-are{
+.who-we-are {
     margin: 60px 0 90px;
 }
 
-.who-we-are__main-photo{
+.who-we-are__main-photo {
     width: 100%;
     margin-bottom: 30px;
 }
 
-.who-we-are__main-photo img{
+.who-we-are__main-photo img {
     width: 100%;
 }
 
 
-.who-we-are__btn{
+.who-we-are__btn {
     border-color: red;
     color: black;
 }
 
-.who-we-are__btn:hover{
+.who-we-are__btn:hover {
     background-color: red;
     color: #ffffff;
 }
 
-@media(min-width: 991px){
-    .who-we-are__objects{
+@media(min-width: 991px) {
+    .who-we-are__objects {
         display: flex;
     }
 
-    .who-we-are__main-photo{
+    .who-we-are__main-photo {
         width: 200%;
         margin: 40px 100px 40px 0;
     }

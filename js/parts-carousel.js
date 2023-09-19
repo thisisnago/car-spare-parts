@@ -85,8 +85,6 @@
     const nextButton = document.querySelector(".car-parts__carousel__btn-next");
     nextButton.addEventListener('click', next);
 
-    // setInterval(next, 5000);
-
     renderCarousel();
 
     window.addEventListener('resize', renderCarousel);

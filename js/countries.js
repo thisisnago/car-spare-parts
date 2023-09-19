@@ -152,14 +152,6 @@
         }
     }
 
-    // function next(){
-    //     currentCountryIdx = currentCountryIdx + 1 > 2 ? 0 : currentCountryIdx + 1;
-    //     renderCarousel(); 
-    // }
-
     renderCarousel();
-    // setInterval(next, 1500);
-
-
 
 })()
